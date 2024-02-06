@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    background-image: url("../imagenes/fondo.jpg");
+    font-family: 'Times New Roman', Times, serif;
+}
+header img{
+    width: 35%;
+}
+.contenedor{
+    display: inline-block;
+    width: 90%;
+}
+.guitarra{
+    margin: 5% 0%;
+}
+.index-nav{
+    margin: 30px 10%
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    background-color: #292525;
+    border-radius: 15px;
+    margin: 30px 50px;
+    color: white;
+}
+nav ul{
+    display: inline-flex;
+}
+nav li{
+    font-size: 20px;
+    list-style: none;
+    margin: 0px 35px;
+}
+section{
+    background-color: #e7e1d5ea;
+    border-radius: 10px;
+    margin: 0px 50px;
+    padding: 30px;
+}
+section li{
+    text-align: left;
+    font-size: 18px;
+    margin:2% 0%;
+}
+section a{
+    color:black;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+article img{
+    width: 20%;
+    border-radius: 15px;
+}
